@@ -237,8 +237,6 @@ img {
   height: 180%;
 } 
 
-
-
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4rem 0 2rem;
@@ -862,7 +860,7 @@ img {
     padding-top: 5rem;
   }
   .products__card {
-    height: 152px;
+    height: 180px;
     padding: .85rem;
   }
   .products__img {
@@ -1052,6 +1050,17 @@ img {
 
 .card__button {
   padding: 1.25rem;
+  border: none;
+  font-size: var(--normal-font-size);
+  border-radius: .5rem;
+  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.card__button2 {
+  padding: .85rem;
   border: none;
   font-size: var(--normal-font-size);
   border-radius: .5rem;
