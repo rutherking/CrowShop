@@ -1085,6 +1085,9 @@ img {
     padding: 2rem 1.25rem;
     border-radius: 1rem;
   }
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* For medium devices */
@@ -1093,7 +1096,8 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .card__content {
-    grid-template-rows: repeat(2, max-content);
+    padding: 2rem 1.25rem;
+    border-radius: 1rem;
   }
   .card__button {
     align-self: flex-end;
