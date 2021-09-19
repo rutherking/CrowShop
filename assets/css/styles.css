@@ -708,6 +708,10 @@ img {
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
+    .products__card {
+    height: 180px;
+    padding: .85rem;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -749,6 +753,20 @@ img {
   }
 }
 
+@media screen and (min-width: 341px) {
+  .products__card {
+    height: 180px;
+    padding: .85rem;
+  }
+}
+
+@media screen and (min-width: 343px) {
+  .products__card {
+    height: 180px;
+    padding: .85rem;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .home__container {
@@ -763,6 +781,10 @@ img {
   }
   .specs__img {
     position: initial;
+  }
+    .products__card {
+    height: 180px;
+    padding: .85rem;
   }
   .specs__container {
     grid-template-columns: repeat(2, 1fr);
